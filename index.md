@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Introduction
+ *february, 25th, 2022*
 
-You can use the [editor on GitHub](https://github.com/fol21/domain-adaptation-in-deforestation/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+ The objective was definded as a comparisson a of Domain Adaptation (DA)representatives of the state of the art for the application of deforestation detection from Sentinel-2 images.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+ ## Pre-flight Plan
+ *february, 25th, 2022*
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ ### Source and Target Dataset definition:
+ Regions around the Amazon -> Cerrado biomes;
+ 
+ ### DA methods scope definition: 
 
-```markdown
-Syntax highlighted code block
+ - ADDA
+ - DANN
+ - CycleGAN
+ - Dennis method;
+ - CyCADA
+ - TBD
 
-# Header 1
-## Header 2
-### Header 3
+ ### Tunning
+ It is scheduled trials for tunning some methods in the scope.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+ ## Dataset Regions
 
-**Bold** and _Italic_ and `Code` text
+ The datasets where defined as Sentinal-2 image scenes in regions of the Amazon and Cerrado Biome. Specificaly in states of Pará and Mato-Grosso.
+ Data can be found in [here](https://drive.google.com/drive/folders/1uk3FzrO-zUK7wYy9O3AbhEgURVW9LCKW?usp=sharing).
 
-[Link](url) and ![Image](src)
-```
+ ## ADDA Method
+Training with the [ADDA method](https://github.com/jnoat92/Adversarial-Domain-Adaptation-for-Change-Detection) with the [Sentinel-2 dataset](https://drive.google.com/drive/folders/1uk3FzrO-zUK7wYy9O3AbhEgURVW9LCKW?usp=sharing).
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fol21/domain-adaptation-in-deforestation/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
