@@ -36,7 +36,7 @@
 
  ## ADDA Method
 
-  *March, 8th, 2022*
+*March, 8th, 2022*
 
 
 Training with the [ADDA method](https://github.com/jnoat92/Adversarial-Domain-Adaptation-for-Change-Detection) with the [Sentinel-2 dataset](https://drive.google.com/drive/folders/1uk3FzrO-zUK7wYy9O3AbhEgURVW9LCKW?usp=sharing).
